@@ -1,0 +1,73 @@
+.mainContainer {
+  background-image: url("C:\Users\sruja\Downloads\pic2.avif"); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  width: 100vw; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(5, 92, 242, 0.1);
+  text-align: center;
+  background-color: rgb(20, 19, 19);
+}
+
+.tab-buttons button {
+  width: 50%;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tab-buttons .active {
+  background-color: #007bff;
+  color: white;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.password-container {
+  display: flex;
+  align-items: center;
+}
+
+.eye-icon {
+  cursor: pointer;
+  margin-left: -30px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0;
+}
