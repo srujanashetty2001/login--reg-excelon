@@ -98,7 +98,7 @@ const App = () => {
               {nameError && <p className="error-message">{nameError}</p>}
               <input
                 type="text"
-                placeholder="Phone"
+                placeholder="Phone number"
                 value={phone}
                 maxLength="10"
                 onChange={(e) => setPhone(e.target.value.replace(/[^0-9]/g, ''))}
